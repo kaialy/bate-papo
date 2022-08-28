@@ -1,0 +1,80 @@
+.body {
+    
+   
+}
+.chatForm{
+
+
+}
+
+.container{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(243,243,243);
+    display:flex;
+    flex-flow: column wrap;
+    height: max-content;
+    height: 100vh;
+}
+.header {
+    background-color: #fff;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid rgb(233,233,233);
+    margin-bottom: 30px;
+ 
+}
+.header > img {
+    height: 100px;
+    width: 100px;
+}
+.content {
+    height: 60vh;
+}
+.message {
+    display: flex;
+    padding: 10px;
+    border: 2px solid rgb(248,248,248);
+    margin-bottom: 2px ;
+    border-radius: 5px;
+}
+.status {
+    background-color: rgb(220,220,220);
+}
+.normal {
+    background-color: #fff;
+}
+.reservado {
+    background-color: rgb(255,222,222);
+}
+.participante {
+    font-weight: bold;
+}
+.message > .time {
+    padding: 0px 3px 0px 3px;
+}
+.time > span {
+    color: rgba(191, 191, 191);
+}
+.footer {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border-top: 1px solid rgb(239,239,239);
+    padding: 20px;
+}
+
+.footer > .campoMensagem {
+    width: 100%;
+    margin: 0px 20px 0 0;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 0px solid rgb(239,239,239);
+}
+.footer > .salvar{
+    border: 0px solid rgb(239,239,239);
+    background-color: #fff;
+    border-radius: 100%;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Bate papo uol</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="header">
+    
+            <img class="logo" src="img/bate-papo-header.jpg">
+            <img class="two-people" src="img/two-people-icon.png">
+
+      </div>
+      <div class="content ">
+          <div class="message status">
+            <div class="time"><span>(09:21:45)</span></div>
+            <div class="message-text-container">
+              <span class="participante remetente">João</span>
+              <span>:</span>
+              <span class="message-text">entrou na sala</span>
+            </div>
+          </div>
+          <div class="message normal">
+            <div class="time"><span>(09:22:45)</span></div>
+            <div class="message-text-container">
+              <span class="participante remetente">João</span>
+              <span class="to">para</span>
+              <span class="participante destinatario">Todos</span>
+              <span>:</span>
+              <span class="message-text">Bom dia</span>
+            </div>
+          </div>
+          <div class="message reservado">
+            <div class="time"><span>(09:22:45)</span></div>
+            <div class="message-text-container">
+              <span class="participante remetente">João</span>
+              <span class="to">reservadamente para</span>
+              <span class="participante destinatario">Maria</span>
+              <span>:</span>
+              <span class="message-text">Manda PV</span>
+            </div>
+          </div>
+      </div>
+      <div class="footer">
+
+          <input name="mensagem" class="campoMensagem" type="text" />
+          <button class="salvar" onclick="enviarMensagem()">
+              <ion-icon name="paper-plane-outline"/>
+          </button>
+      </div>
+    </div>
+
+ 
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
